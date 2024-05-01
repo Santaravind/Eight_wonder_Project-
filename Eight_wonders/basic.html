@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>
+            basic webside
+        </title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                margin: 0;
+                padding: 0;
+            }
+          #wrapper{
+                     border:0px solid red;
+                     width: 1000px;
+                     background-color: white;
+                     margin: 0 auto;
+          }
+          #header{
+            background-color: crimson;
+            height: 100px;
+            color: white;
+          }
+          #header h1{
+            padding: 30px 0 0 20px ;
+          }
+          #menu{
+            background-color: lightcoral;
+                     }
+           #menu li{
+              display: inline-block;
+           }
+         #menu li a{
+            display: block;
+            padding: 10px 13px;
+            text-decoration: none;
+            color: black;
+         }
+         #menu li a:hover{
+            background-color:crimson;
+            color: aliceblue;
+         }
+         #menu ul{
+            margin: 0;
+            padding: 0;
+         }
+         #content{
+            width: 800px;
+            min-height: 400px;
+            float: left;
+            padding: 10px ;
+            box-sizing: border-box;
+         }
+          #sidebar a{
+            text-decoration: none;
+            color: black;
+         
+          }           
+          #sidebar{
+            width: 200px;
+            min-height: 400px;
+            float: right;
+            background-color: lightyellow;
+
+          }
+          #footer{
+            background-color: lawngreen;
+            clear: both;
+            text-align: right;
+            padding: 5px 10px;
+          }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>
+                      Sant Baba
+                </h1>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li> <a href=""> Home</a></li>
+                    <li> <a href=""> About us</a></li>
+                    <li> <a href=""> Gallery</a></li>
+                    <li> <a href=""> Other information</a></li>
+                    <li> <a href=""> Contact Us</a></li>
+                    
+                     
+                </ul>
+            </div>        
+            <div id="content">
+                <h2>Design basic Layout</h2>
+                <p> Physical Layer
+                    Physical layer is the lowest layer of OSI model. It deals with mechanical and electrical specification of
+                    interface and transmission medium. The physical layer concerned with the following:
+                    1) Physical Characteristics of interface and transmission media .
+                    2) Type of encoding that is which signal pattern represents a binary 1 and which represents a
+                    binary zero
+                    3) The transmission rate that is the number of bits sent/received per second
+                    4) Synchronization of bits. the sender and the receiver must be synchronized at bit level</p>
+                    <p>The data link layer divides the stream of BITS received from the upper layer into the manageable
+                        data units called frames. </p>
+                        <p>The data link layer provides error free transfer of data frames from the one computer to another
+                            over the physical layer. Data link layer performs the following funct</p>
+            </div>
+            <div id="sidebar"><ul>
+                <li> <a href=""> Home</a></li>
+                <li> <a href=""> About us</a></li>
+                <li> <a href=""> Gallery</a></li>
+                <li> <a href=""> Other information</a></li>
+                <li> <a href=""> Contact Us</a></li>
+                
+                 
+            </ul></div>
+            <div id="footer"> SantBaba@2023</div>
+            
+        </div>
+    </body>
+</html>
